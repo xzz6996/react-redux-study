@@ -1,7 +1,12 @@
 import { combineReducers } from "redux"
-import useraa from './user'
+import users from './user'
+import todos from './todolist/reducers/todos'
+import visibilityFilter from "./todolist/reducers/visibilityFiter"
+
 export default combineReducers({
-    useraa
+    users,
+    todos,
+    visibilityFilter
 })
 
 /**
